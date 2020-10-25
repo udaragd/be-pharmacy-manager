@@ -1,23 +1,30 @@
-import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
+import { Table, Column, Model, DataType, CreatedAt, UpdatedAt, DeletedAt, BelongsTo } from 'sequelize-typescript';
 
-@Entity()
-export class UserType {
+@Table({
+  tableName: 'user_type',
+})
+export class UserType extends Model<UserType> {
+  @Column({
+    type: DataType.INTEGER,
+    allowNull: false,
+    autoIncrement: true,
+    unique: true,
+    primaryKey: true,
+  })
+  public id: number;
 
-    @PrimaryGeneratedColumn()
-    id: number;
+  @Column({ type: DataType.CHAR(45) })
+  type: string;
 
-    @Column({ length: 25 })
-    type: string;
+  @Column({ allowNull: false })
+  active: boolean;
 
-    @Column()
-    active: boolean;
+  @CreatedAt
+  created_at: Date;
 
-    @Column()
-    created_at: Date;
+  @UpdatedAt
+  updated_at: Date;
 
-    @Column()
-    updated_at: Date;
-
-    @Column()
-    deleted_at: Date;
+  @DeletedAt
+  deleted_at: Date;
 }
