@@ -1,15 +1,18 @@
-import { Controller, Get, Post, Put, Delete, Body, Param } from '@nestjs/common';
-// import { CreateUserTypeDto } from './dto/create-user-type.dto';
-// import { UpdateUserTypeDto } from './dto/update-user-type.dto';
+import { Controller, Get, Param } from '@nestjs/common';
 import { UserTypeService } from './user-type.service';
 import { UserTypeRO } from './interfaces/user-type.interface';
 
-@Controller('user-type')
+@Controller('user-types')
 export class UserTypeController {
     constructor(private readonly userTypeService: UserTypeService) { }
 
     @Get()
     async getAll(): Promise<UserTypeRO[]> {
         return await this.userTypeService.findAll();
+    }
+
+    @Get(':id')
+    async getOne(@Param() param): Promise<UserTypeRO> {
+        return await this.userTypeService.findOne(param.id);
     }
 }
