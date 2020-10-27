@@ -17,7 +17,7 @@ export class UserType extends Model<UserType> {
   type: string;
 
   @Column({ allowNull: false })
-  active: boolean;
+  is_active: boolean;
 
   @CreatedAt
   created_at: Date;

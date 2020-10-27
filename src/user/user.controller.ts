@@ -14,22 +14,22 @@ export class UserController {
     }
 
     @Get(':id')
-    getOne(@Param() param): string {
-        return 'this.usersService.findOne(param.id)';
+    async getOne(@Param() param): Promise<UserRO> {
+        return await this.usersService.findOne(param.id);
     }
 
     @Post()
-    create(@Body() createUserDto: CreateUserDto): string {
-        return createUserDto.first_name;
-    }
-
-    @Delete(':id')
-    delete(@Param() param): string {
-        return `Delete user based on id ${param.id}`;
+    async create(@Body() createUserDto: CreateUserDto): Promise<UserRO> {
+        return await this.usersService.create(createUserDto);
     }
 
     @Put(':id')
-    update(@Param() param, @Body() updateUserDto: UpdateUserDto): string {
-        return `Update user based on id ${param.id}. Delete user first name is ${updateUserDto.first_name}`;
+    async update(@Param() param, @Body() updateUserDto: UpdateUserDto): Promise<UserRO> {
+        return await this.usersService.update(param.id, updateUserDto);
+    }
+
+    @Delete(':id')
+    async delete(@Param() param): Promise<UserRO> {
+        return await this.usersService.delete(param.id);
     }
 }

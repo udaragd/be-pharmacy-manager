@@ -1,4 +1,4 @@
-import { Table, Column, Model, DataType, CreatedAt, UpdatedAt, DeletedAt, ForeignKey, BelongsTo } from 'sequelize-typescript';
+import { Table, Column, Model, DataType, CreatedAt, UpdatedAt, DeletedAt, ForeignKey, BelongsTo, IsEmail, Unique, Default, NotNull } from 'sequelize-typescript';
 import { UserType } from '../user-type/user-type.entity';
 
 @Table({
@@ -6,41 +6,44 @@ import { UserType } from '../user-type/user-type.entity';
 })
 export class User extends Model<User> {
   @Column({
-    type: DataType.INTEGER,
-    allowNull: false,
-    autoIncrement: true,
-    unique: true,
+    type: DataType.UUID,
+    defaultValue: DataType.UUIDV4,
     primaryKey: true,
   })
-  public id: number;
+  id: string;
 
-  @Column({ type: DataType.CHAR(45) })
+  @Column
   first_name: string;
 
-  @Column({ type: DataType.CHAR(45) })
+  @Column
   last_name: string;
 
-  @Column({ type: DataType.CHAR(45) })
+  @Unique
+  @IsEmail
+  @Column
   email: string;
 
-  @Column({ type: DataType.CHAR(45) })
+  @Column
   password: string;
 
-  @Column({ allowNull: false })
-  active: boolean;
-
-  @Column({ allowNull: false })
+  @Column
   @ForeignKey(() => UserType)
   type_id: number;
 
+  @Column
+  is_active: boolean;
+
   @CreatedAt
-  created_at: Date;
+  @Column({ field: 'created_at' })
+  createdAt: Date;
 
   @UpdatedAt
-  updated_at: Date;
+  @Column({ field: 'updated_at' })
+  updatedAt: Date;
 
   @DeletedAt
-  deleted_at: Date;
+  @Column({ field: 'deleted_at' })
+  deletedAt: Date;
 
   @BelongsTo(() => UserType)
   user_type: UserType;

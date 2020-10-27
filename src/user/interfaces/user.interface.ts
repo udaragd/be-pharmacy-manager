@@ -1,10 +1,10 @@
 export interface UserData {
-    id?: number;
+    id?: string;
     first_name: string;
     last_name?: string;
     email: string;
     password: string;
-    active: boolean;
+    is_active: boolean;
     type_id: number;
     created_at?: Date;
     updated_at?: Date;
@@ -12,5 +12,5 @@ export interface UserData {
 }
 
 export interface UserRO extends UserData {
-    id: number;
+    id: string;
 }

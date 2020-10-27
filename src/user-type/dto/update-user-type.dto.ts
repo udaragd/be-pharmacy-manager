@@ -1,4 +1,4 @@
 export class UpdateUserTypeDto{
     readonly type: string;
-    readonly active: string;
+    readonly is_active: string;
 }
