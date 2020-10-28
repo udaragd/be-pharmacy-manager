@@ -1257,8 +1257,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/validator/index.d.ts": {
-        "version": "d51dd1eeec95fbe192e6dfeee8f982b3d6115a0ff6059cafc879330d94367fb0",
-        "signature": "d51dd1eeec95fbe192e6dfeee8f982b3d6115a0ff6059cafc879330d94367fb0",
+        "version": "3ff2dd07f8aa032e6eb7ffacd8f4e1f0b8dac4ba02c1f6ea1413187aef947ec9",
+        "signature": "3ff2dd07f8aa032e6eb7ffacd8f4e1f0b8dac4ba02c1f6ea1413187aef947ec9",
         "affectsGlobalScope": false
       },
       "../node_modules/sequelize/types/lib/utils/validator-extras.d.ts": {
@@ -1952,7 +1952,7 @@
         "affectsGlobalScope": false
       },
       "../src/user/user.controller.ts": {
-        "version": "c4c0d1ec06dd81b2b1c323b1e8547f9d83e1088ea631c1970594db9f59e16bc9",
+        "version": "6da7e0bbbdd830dbc58010bf8193243dc8e34e9ca9aee41fec6e62fbec920611",
         "signature": "a3048d6b250d6def40ebd5ca2c4d5d9a4065a5268f921297c1e6daad7db66d16",
         "affectsGlobalScope": false
       },
@@ -2192,7 +2192,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "3c8967198a459fe0868276c735fb4ecbe75c3ed2bbda02d4dcee787c5c448528",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -2237,8 +2237,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
-        "version": "07bc5e31e287e5a692fb3a93a1f0ec6beff1da19c7a3f0ed8a8d5ae2315d6718",
-        "signature": "07bc5e31e287e5a692fb3a93a1f0ec6beff1da19c7a3f0ed8a8d5ae2315d6718",
+        "version": "e8c639f22dc97e453b42980d71fbefbc915ea31436b327e2b2d7946bdc4ef1a3",
+        "signature": "e8c639f22dc97e453b42980d71fbefbc915ea31436b327e2b2d7946bdc4ef1a3",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/node/async_hooks.d.ts": {
@@ -2297,13 +2297,13 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/fs.d.ts": {
-        "version": "add4ffef8d9bce5c917379362912804c19b33a1857903e8f64e48359f58e3d7b",
-        "signature": "add4ffef8d9bce5c917379362912804c19b33a1857903e8f64e48359f58e3d7b",
+        "version": "e13590b7b4457952dd3ab5f04727b2fcd639eb339d8eccaea5057bea0d9011d1",
+        "signature": "e13590b7b4457952dd3ab5f04727b2fcd639eb339d8eccaea5057bea0d9011d1",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/http.d.ts": {
-        "version": "45046dc0d566747d7249217e00816f03cb805db1e1dd1b614d245efc1486900e",
-        "signature": "45046dc0d566747d7249217e00816f03cb805db1e1dd1b614d245efc1486900e",
+        "version": "60e57a3e2c1183075e286149a91f677904f77766fd5c0a11b0fc872300dfe313",
+        "signature": "60e57a3e2c1183075e286149a91f677904f77766fd5c0a11b0fc872300dfe313",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/http2.d.ts": {
@@ -2367,8 +2367,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/repl.d.ts": {
-        "version": "dd3706b25d06fe23c73d16079e8c66ac775831ef419da00716bf2aee530a04a4",
-        "signature": "dd3706b25d06fe23c73d16079e8c66ac775831ef419da00716bf2aee530a04a4",
+        "version": "cc242657e01acd67c9bc01dc152c3c7ba3a546bf5fa046b0a06c9f46b6481c9b",
+        "signature": "cc242657e01acd67c9bc01dc152c3c7ba3a546bf5fa046b0a06c9f46b6481c9b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/stream.d.ts": {
@@ -2387,8 +2387,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/tls.d.ts": {
-        "version": "424bc64b2794d9280c1e1f4a3518ba9d285385a16d84753a6427bb469e582eca",
-        "signature": "424bc64b2794d9280c1e1f4a3518ba9d285385a16d84753a6427bb469e582eca",
+        "version": "13d3277b4993df3379bfcd74ec154e0840cdfe14c7ae21c8a1963cab28c2fa26",
+        "signature": "13d3277b4993df3379bfcd74ec154e0840cdfe14c7ae21c8a1963cab28c2fa26",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/trace_events.d.ts": {
@@ -2512,8 +2512,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/serve-static/index.d.ts": {
-        "version": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
-        "signature": "adde1c915ab3b61a2821c72f226546c6c119a061a2ff4d6f90b3d61c005ae1f8",
+        "version": "a81ca93d000e36f987b91dd5b26a900aeae125bfbeda710b0369d04857c02932",
+        "signature": "a81ca93d000e36f987b91dd5b26a900aeae125bfbeda710b0369d04857c02932",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/express/index.d.ts": {
@@ -2522,8 +2522,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/graceful-fs/index.d.ts": {
-        "version": "2c7dca525f4e2e5f2b357dacb58ab6c8777995e6d505ef652bcbbf9789ac558f",
-        "signature": "2c7dca525f4e2e5f2b357dacb58ab6c8777995e6d505ef652bcbbf9789ac558f",
+        "version": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
+        "signature": "cb6cf0480ee1aa9f706db1f6f5add596a1aa10e8c4beb1817f2318384ba684dc",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
@@ -2594,6 +2594,11 @@
       "../node_modules/@types/json5/index.d.ts": {
         "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
         "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/jsonwebtoken/index.d.ts": {
+        "version": "f67c920eba6ab8e4558cb9ab661d900188f101c5657e19b1e15829a1d491d46e",
+        "signature": "f67c920eba6ab8e4558cb9ab661d900188f101c5657e19b1e15829a1d491d46e",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/lodash/common/common.d.ts": {
@@ -2669,6 +2674,26 @@
       "../node_modules/@types/parse-json/index.d.ts": {
         "version": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
         "signature": "2b8264b2fefd7367e0f20e2c04eed5d3038831fe00f5efbc110ff0131aab899b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/passport/index.d.ts": {
+        "version": "f640cdd17b26d4ecaf98f17d90e012b25a29676e30149ef26f02572159cb325a",
+        "signature": "f640cdd17b26d4ecaf98f17d90e012b25a29676e30149ef26f02572159cb325a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/@types/passport-strategy/index.d.ts": {
+        "version": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
+        "signature": "29d59e921bc723594bbfc98230d24f38f0d5a669f28fcf989b7468f4f95b7c52",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/passport-jwt/index.d.ts": {
+        "version": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38",
+        "signature": "d306be26f96b4bd9b279cd7da9d1355d5ce4060a2bb254489c1b95c87057eb38",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/passport-local/index.d.ts": {
+        "version": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
+        "signature": "e50f9ae34bb92232533e3a32848970dd04f874a8f64d3ae48980e062b6489f26",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/prettier/index.d.ts": {
@@ -3496,6 +3521,9 @@
       "../node_modules/@types/jest/ts3.2/index.d.ts": [
         "../node_modules/@types/jest/index.d.ts"
       ],
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
       "../node_modules/@types/lodash/common/array.d.ts": [
         "../node_modules/@types/lodash/common/collection.d.ts",
         "../node_modules/@types/lodash/common/common.d.ts",
@@ -3836,6 +3864,24 @@
       "../node_modules/@types/node/zlib.d.ts": [
         "../node_modules/@types/node/stream.d.ts"
       ],
+      "../node_modules/@types/passport-jwt/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/@types/passport-strategy/index.d.ts"
+      ],
+      "../node_modules/@types/passport-local/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/passport-strategy/index.d.ts",
+        "../node_modules/@types/passport/index.d.ts"
+      ],
+      "../node_modules/@types/passport-strategy/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/passport/index.d.ts"
+      ],
+      "../node_modules/@types/passport/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/node/http.d.ts"
+      ],
       "../node_modules/@types/sequelize/index.d.ts": [
         "../node_modules/@types/bluebird/index.d.ts",
         "../node_modules/@types/continuation-local-storage/index.d.ts",
@@ -3843,8 +3889,9 @@
         "../node_modules/@types/validator/index.d.ts"
       ],
       "../node_modules/@types/serve-static/index.d.ts": [
-        "../node_modules/@types/express-serve-static-core/index.d.ts",
-        "../node_modules/@types/mime/index.d.ts"
+        "../node_modules/@types/mime/index.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts"
       ],
       "../node_modules/@types/superagent/index.d.ts": [
         "../node_modules/@types/cookiejar/index.d.ts",
@@ -5531,6 +5578,9 @@
       "../node_modules/@types/jest/ts3.2/index.d.ts": [
         "../node_modules/@types/jest/index.d.ts"
       ],
+      "../node_modules/@types/jsonwebtoken/index.d.ts": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
       "../node_modules/@types/lodash/common/array.d.ts": [
         "../node_modules/@types/lodash/common/collection.d.ts",
         "../node_modules/@types/lodash/common/common.d.ts",
@@ -5871,6 +5921,24 @@
       "../node_modules/@types/node/zlib.d.ts": [
         "../node_modules/@types/node/stream.d.ts"
       ],
+      "../node_modules/@types/passport-jwt/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/jsonwebtoken/index.d.ts",
+        "../node_modules/@types/passport-strategy/index.d.ts"
+      ],
+      "../node_modules/@types/passport-local/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/passport-strategy/index.d.ts",
+        "../node_modules/@types/passport/index.d.ts"
+      ],
+      "../node_modules/@types/passport-strategy/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/passport/index.d.ts"
+      ],
+      "../node_modules/@types/passport/index.d.ts": [
+        "../node_modules/@types/express/index.d.ts",
+        "../node_modules/@types/node/http.d.ts"
+      ],
       "../node_modules/@types/sequelize/index.d.ts": [
         "../node_modules/@types/bluebird/index.d.ts",
         "../node_modules/@types/continuation-local-storage/index.d.ts",
@@ -5878,8 +5946,9 @@
         "../node_modules/@types/validator/index.d.ts"
       ],
       "../node_modules/@types/serve-static/index.d.ts": [
-        "../node_modules/@types/express-serve-static-core/index.d.ts",
-        "../node_modules/@types/mime/index.d.ts"
+        "../node_modules/@types/mime/index.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts"
       ],
       "../node_modules/@types/superagent/index.d.ts": [
         "../node_modules/@types/cookiejar/index.d.ts",
@@ -7041,6 +7110,7 @@
       "../node_modules/@types/jest/ts3.2/index.d.ts",
       "../node_modules/@types/json-schema/index.d.ts",
       "../node_modules/@types/json5/index.d.ts",
+      "../node_modules/@types/jsonwebtoken/index.d.ts",
       "../node_modules/@types/lodash/common/array.d.ts",
       "../node_modules/@types/lodash/common/collection.d.ts",
       "../node_modules/@types/lodash/common/common.d.ts",
@@ -7103,6 +7173,10 @@
       "../node_modules/@types/node/zlib.d.ts",
       "../node_modules/@types/normalize-package-data/index.d.ts",
       "../node_modules/@types/parse-json/index.d.ts",
+      "../node_modules/@types/passport-jwt/index.d.ts",
+      "../node_modules/@types/passport-local/index.d.ts",
+      "../node_modules/@types/passport-strategy/index.d.ts",
+      "../node_modules/@types/passport/index.d.ts",
       "../node_modules/@types/prettier/index.d.ts",
       "../node_modules/@types/qs/index.d.ts",
       "../node_modules/@types/range-parser/index.d.ts",
