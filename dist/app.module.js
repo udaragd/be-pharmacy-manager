@@ -14,12 +14,14 @@ const user_controller_1 = require("./user/user.controller");
 const user_module_1 = require("./user/user.module");
 const user_type_module_1 = require("./user-type/user-type.module");
 const user_type_controller_1 = require("./user-type/user-type.controller");
+const auth_module_1 = require("./auth/auth.module");
+const auth_controller_1 = require("./auth/auth.controller");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [user_module_1.UserModule, user_type_module_1.UserTypeModule],
-        controllers: [app_controller_1.AppController, user_controller_1.UserController, user_type_controller_1.UserTypeController],
+        imports: [user_module_1.UserModule, user_type_module_1.UserTypeModule, auth_module_1.AuthModule],
+        controllers: [app_controller_1.AppController, user_controller_1.UserController, user_type_controller_1.UserTypeController, auth_controller_1.AuthController],
         providers: [app_service_1.AppService],
     })
 ], AppModule);
